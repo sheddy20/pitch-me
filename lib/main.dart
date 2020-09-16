@@ -14,17 +14,22 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatelessWidget {
-  final _appBarColor = Colors.black;
-  final _icon2 = Icons.more_vert;
+  final _appBarColor = Colors.black87;
+  final _icon2 = Icons.search;
+  final _icon = Icons.more_vert;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: _appBarColor,
-        title: Text('BLM.ORG'),
+        title: Text('Bluebook'),
         actions: [
           IconButton(
             icon: Icon(_icon2),
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: Icon(_icon),
             onPressed: () {},
           ),
         ],
@@ -35,7 +40,7 @@ class HomePage extends StatelessWidget {
             margin: EdgeInsets.only(left: 50.0, right: 10.0),
             padding: EdgeInsets.all(20.0),
             child: Text(
-              'Black Lives Matter',
+              'Bluebook EVs App',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 letterSpacing: 1.5,
@@ -46,15 +51,15 @@ class HomePage extends StatelessWidget {
           SizedBox(height: 1.0),
           Container(
             child: Image.asset(
-              'Assets/Images/lebron.jpg',
-              fit: BoxFit.cover,
+              'Assets/Images/ev.png',
+              fit: BoxFit.contain,
             ),
             padding: EdgeInsets.all(10.0),
             margin: EdgeInsets.all(10.0),
             width: 100.0,
             height: 250.0,
             decoration: BoxDecoration(
-              color: Colors.black,
+              color: Colors.black87,
               borderRadius: BorderRadius.circular(15.0),
             ),
           ),
@@ -89,16 +94,16 @@ class HomePage extends StatelessWidget {
             ListTile(
               leading: Icon(Icons.people),
               onTap: () {},
-              title: Text('Friends'),
+              title: Text('EV users'),
               trailing: Icon(Icons.more_vert),
             ),
             Divider(
               color: Colors.black,
             ),
             ListTile(
-              leading: Icon(Icons.monetization_on),
+              leading: Icon(Icons.battery_charging_full),
               onTap: () {},
-              title: Text('My Donations'),
+              title: Text('My Charger'),
               trailing: Icon(Icons.more_vert),
             ),
             Divider(
@@ -134,20 +139,20 @@ class HomePage extends StatelessWidget {
             SizedBox(height: 66.0),
             FloatingActionButton.extended(
               onPressed: () {},
-              tooltip: 'Black Lives Matter Store',
+              tooltip: 'Bluebook',
               backgroundColor: Colors.black87,
               icon: Icon(Icons.shopping_cart),
-              label: Text('BLM eStore'),
+              label: Text('Bluebook eStore'),
             ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {},
-        label: Text('Donate'),
-        backgroundColor: Colors.black,
-        tooltip: 'Support the equal justice initiative',
-        icon: Icon(Icons.attach_money),
+        label: Text('Order now'),
+        backgroundColor: Colors.black87,
+        tooltip: 'Get the bluebook EV',
+        icon: Icon(Icons.directions_car),
       ),
     );
   }
