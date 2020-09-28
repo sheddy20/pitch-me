@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "771871051351",
+    "firebase_url": "https://pitchme-f76f3.firebaseio.com",
+    "project_id": "pitchme-f76f3",
+    "storage_bucket": "pitchme-f76f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771871051351:android:0bba451279068825741d12",
+        "android_client_info": {
+          "package_name": "com.example.pitchme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771871051351-g8l1qm2kg63uoun151b2je7ebcmoo5vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-HFWDUwFbccMfA9ahxfJwb71V3C9Io98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771871051351-g8l1qm2kg63uoun151b2je7ebcmoo5vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
