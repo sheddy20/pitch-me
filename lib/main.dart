@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'HomeWidget/homePage.dart';
+import 'package:pitchme/Widgets/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,9 +7,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'PitchMe',
+      title: 'PitchME',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: Home(),
     );
   }
 }
